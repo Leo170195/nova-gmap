@@ -10,7 +10,7 @@ Install the package via composer with:
 
 Next publish the config file with:
 
-	php artisan vendor:publish --provider="Acm\NovaGmap\FieldServiceProvider.php" --tag="config"
+	php artisan vendor:publish --provider="Acm\NovaGmap\FieldServiceProvider" --tag="config"
 
 This will create a config file at `config/nova-gmaps.php` where you will need to enter your Google Maps API key, default position and zoom level.
 
